@@ -1,0 +1,126 @@
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export function pluralize(text: string, count: number) {
+  return count > 1 ? `${count} ${text}s` : `${count} ${text}`;
+}
+
+export function formatToReadableDate(dateInput: string | Date): string {
+  // Parse the date input
+  const date = new Date(dateInput);
+
+  if (isNaN(date.getTime())) {
+    throw new Error("Invalid date input");
+  }
+
+  // Define month names
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  // Get the individual components
+  const year = date.getUTCFullYear();
+  const month = monthNames[date.getUTCMonth()]; // Months are 0-indexed
+  const day = date.getUTCDate();
+
+  // Format as "Day Month Year"
+  return `${day} ${month} ${year}`;
+}
+
+export const getTimeAgo = (timestamp: string | Date) => {
+  const date = new Date(timestamp);
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+
+  const seconds = Math.floor(diffMs / 1000);
+  const minutes = Math.floor(seconds / 60);
+  const hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+  const weeks = Math.floor(days / 7);
+  const months = Math.floor(days / 30);
+  const years = Math.floor(days / 365);
+
+  if (years > 0) return `${years} year${years > 1 ? "s" : ""} ago`;
+  if (months > 0) return `${months} month${months > 1 ? "s" : ""} ago`;
+  if (weeks > 0) return `${weeks} week${weeks > 1 ? "s" : ""} ago`;
+  if (days > 0) return `${days} day${days > 1 ? "s" : ""} ago`;
+  if (hours > 0) return `${hours} hour${hours > 1 ? "s" : ""} ago`;
+  if (minutes > 0) return `${minutes} minute${minutes > 1 ? "s" : ""} ago`;
+  return `${seconds} second${seconds !== 1 ? "s" : ""} ago`;
+};
+
+// Function to format the phone number
+export const formatPhoneNumber = (phone: string | undefined) => {
+  return phone?.replace(/[+'"\s]/g, "");
+};
+
+// Function to remove apostrophe
+export const formatPhoneNumberApostrophe = (phone: string | undefined) => {
+  return phone?.replace(/[+'"\s]/g, "");
+};
+
+// Function to format money
+export const formatMoneyOLD = (amount: number, currency: string = 'AED') => {
+  const formattedAmount = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency,
+    maximumFractionDigits: 0,
+  }).format(amount);
+
+  return formattedAmount
+};
+
+export const formatMoney = (amount: number, currency: string = 'AED') => {
+  const formattedAmount = new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: 0,
+  }).format(amount);
+
+  return `${formattedAmount} ${currency}`;
+};
+
+export function nl2br(str: string) {
+  if (typeof str !== "string") {
+    return str;
+  }
+  return str.replace(/\n/g, "<br>");
+}
+
+export function formatNumber(value: number, options: any = {}) {
+  const {
+    decimalPlaces = 2,
+    thousandsSeparator = ',',
+    decimalSeparator = '.',
+  } = options;
+
+  if (isNaN(value) || value === null || value === undefined) return '';
+
+  const parts = Number(value)
+    .toFixed(decimalPlaces)
+    .split('.');
+
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, thousandsSeparator);
+
+  return parts.join(decimalSeparator);
+}
+
+export function formatNaira(value: number, options: any = {}) {
+  return `₦${formatNumber(value, options)}`
+}
+export function formatUsd(value: number, options: any = {}) {
+  return `$${formatNumber(value, options)}`
+}

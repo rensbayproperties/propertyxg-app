@@ -1,0 +1,416 @@
+:root {
+  /* #0050F7 */
+  /* rgb(38, 74, 255) */
+  --color-brand: 1 102 255;
+  /* --color-brand: 1 102 255; */
+  --color-secondary: 0 0 0;
+  --color-customyellow: 237 216 33;
+
+  /* Light mode colors */
+  --background: 243 244 246;
+  --foreground: 0 0 0;
+  --card: 255 255 255;
+  /* --card-alt: 243 244 246; */
+  --card-alt: 255 255 255;
+  --card-foreground: 0 0 0;
+  --popover: 255 255 255;
+  --popover-foreground: 0 0 0;
+  --primary: 1 102 255;
+  --primary-foreground: 255 255 255;
+  --secondary: 244 244 245;
+  --secondary-foreground: 24 24 27;
+  --muted: 244 244 245;
+  --muted-foreground: 113 113 122;
+  --accent: 244 244 245;
+  --accent-foreground: 24 24 27;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --border: 228 228 231;
+  /* --input: 228 228 231; */
+  --input: 255 255 255;
+  --input-placeholder: 170 170 170;
+  --ring: 1 102 255;
+  --sidebar-background: 255 255 255;
+  /* --sidebar-background: 243 246 255; */
+  --sidebar-foreground: 72 72 72;
+  --sidebar-primary: 1 102 255;
+  --sidebar-primary-foreground: 255 255 255;
+  --sidebar-accent: 244 244 245;
+  --sidebar-accent-foreground: 24 24 27;
+  --sidebar-border: 228 228 231;
+  --sidebar-ring: 1 102 255;
+}
+
+.darkOLD {
+  /* color: rgb(238, 244, 255); */
+  color: rgb(44, 7, 53);
+  /* Dark mode colors */
+  /* --color-brand: 216 255 255; */
+  --color-secondary: 255 255 255;
+  --background: 9 9 11;
+  --foreground: 250 250 250;
+  --card: 24 24 27;
+  --card-alt: 41 37 36;
+  --card-foreground: 250 250 250;
+  --popover: 24 24 27;
+  --popover-foreground: 250 250 250;
+  --primary: 59 130 246;
+  --primary-foreground: 255 255 255;
+  --secondary: 39 39 42;
+  --secondary-foreground: 250 250 250;
+  --muted: 39 39 42;
+  --muted-foreground: 161 161 170;
+  --accent: 39 39 42;
+  --accent-foreground: 250 250 250;
+  --destructive: 220 38 38;
+  --destructive-foreground: 250 250 250;
+  --border: 39 39 42;
+  --input: 39 39 42;
+  --input-placeholder: 80 80 80;
+  --ring: 59 130 246;
+  --sidebar-background: 24 24 27;
+  --sidebar-foreground: 250 250 250;
+  --sidebar-primary: 59 130 246;
+  --sidebar-primary-foreground: 255 255 255;
+  --sidebar-accent: 39 39 42;
+  --sidebar-accent-foreground: 250 250 250;
+  --sidebar-border: 39 39 42;
+  --sidebar-ring: 59 130 246;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 0.975rem;
+  }
+}
+
+@layer utilities {
+  .text-heading {
+    @apply font-quattrocento;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-link {
+    @apply text-blue-700;
+  }
+  .text-custom-purple {
+    @apply text-purple-700;
+  }
+  .page-heading, .page-heading-lg {
+    @apply text-xl;
+    @apply md:text-3xl;
+    @apply font-extrabold;
+    @apply font-quattrocento;
+  }
+  .page-heading-lg {
+    @apply md:text-4xl;
+  }
+  .page-heading-secondary {
+    @apply text-xl;
+    @apply md:text-2xl;
+    @apply font-extrabold;
+    @apply text-secondary;
+  }
+  .page-sub-heading {
+    @apply text-sm;
+    /* @apply md:text-base; */
+    @apply text-muted-foreground;
+  }
+
+  .page-t {
+    @apply bgr min-h-[70vh] w-full items-start justify-start;
+  }
+  .page-center {
+    @apply h-full min-h-[80vh] flex flex-col justify-center items-center py-6 md:py-8;
+  }
+  .page-form {
+    @apply py-6 space-y-2;
+  }
+  .pkjkjk {
+    color: #684f48;
+  }
+
+  .form-helper {
+    @apply text-sm opacity-50;
+  }
+
+  .section-heading {
+    @apply text-xl;
+    @apply md:text-2xl;
+    @apply tracking-tight;
+    @apply font-bold;
+  }
+  .section-heading-sm {
+    @apply text-lg;
+    @apply md:text-xl;
+    @apply tracking-tight;
+    @apply font-bold;
+    /* @apply text-brand; */
+  }
+  .bgr {
+    @apply bg-red-500;
+  }
+  .bgg {
+    @apply bg-green-500;
+  }
+  .bg-1 {
+    @apply bg-white;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+  .main {
+    @apply px-5 py-10;
+    @apply lg:px-20;
+  }
+  .text-money {
+    @apply font-inter;
+    @apply tracking-wide;
+  }
+  .max-w-form {
+    @apply max-w-[540px];
+  }
+  .card {
+    @apply bg-card text-card-foreground;
+    @apply p-5;
+    /* @apply md:p-5; */
+    @apply rounded-md;
+    @apply border border-border;
+  }
+
+  .common-loader {
+    @apply flex items-center justify-center;
+    @apply animate-pulse;
+    @apply min-h-[10vh];
+  }
+
+  .marquee {
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    @apply py-3;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  /* Pause animation when reduced-motion is set */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee__content {
+      animation-play-state: paused !important;
+    }
+  }
+
+  /* Enable animation */
+  .enable-animation .marquee__content {
+    animation: scroll 30s linear infinite;
+  }
+
+  /* Attempt to size parent based on content. Keep in mind that the parent width is equal to both content containers that stretch to fill the parent. */
+  .marquee--fit-content {
+    max-width: fit-content;
+  }
+
+  /* A fit-content sizing fix: Absolute position the duplicate container. This will set the size of the parent wrapper to a single child container. Shout out to Olavi's article that had this solution 👏 @link: https://olavihaapala.fi/2021/02/23/modern-marquee.html  */
+  .marquee--pos-absolute .marquee__content:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* Enable position absolute animation on the duplicate content (last-child) */
+  .enable-animation .marquee--pos-absolute .marquee__content:last-child {
+    animation-name: scroll-abs;
+  }
+
+  @keyframes scroll-abs {
+    from {
+      transform: translateX(calc(100% + var(--gap)));
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+.camp {
+  border: 1px solid #e9e9e9;
+}
+
+.allcampaigntable {
+  border: 2px solid #ececec;
+  background-color: #f9f9f9;
+}
+
+.campaigntabledata {
+  border: 2px solid #ececec;
+  margin-top: 20px;
+}
+
+.bedroom {
+  position: relative;
+  background-image: url("../public/assets/images/building.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* show shadow on hover */
+.bedroom:hover .overlay {
+  opacity: 1;
+}
+
+.parlour {
+  position: relative;
+  background-image: url("../public/assets/images/outside.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.parlour:hover .overlay {
+  opacity: 1;
+}
+
+.outside {
+  position: relative;
+  background-image: url("../public/assets/images/interior.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.outside:hover .overlay {
+  opacity: 1;
+}
+
+.building {
+  position: relative;
+  background-image: url("../public/assets/images/parlour.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.building:hover .overlay {
+  opacity: 1;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d1d5db;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.5s ease;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.5s ease;
+}
+
+.sharemodDP {
+  background-image: url("../public/assets/images/bedroom.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

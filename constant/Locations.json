@@ -1,0 +1,1990 @@
+[
+  {
+    "name": "Abu Dhabi",
+    "description": "The UAE capital known for its cultural landmarks, waterfront lifestyle, and modern urban developments."
+  },
+  {
+    "name": "Abu Hail",
+    "description": "A quiet community in Deira offering convenient access to malls, schools, and metro connectivity."
+  },
+  {
+    "name": "Academic City",
+    "description": "An education-focused district featuring universities, student housing, and peaceful suburban surroundings."
+  },
+  {
+    "name": "Address Harbour Point",
+    "description": "A premium waterfront Address development overlooking Dubai Creek and offering luxury living."
+  },
+  {
+    "name": "Address Harbour Point Tower 1",
+    "description": "A high-end residential tower in Dubai Creek Harbour with marina views and world-class amenities."
+  },
+  {
+    "name": "Address Harbour Point Tower 2",
+    "description": "A luxury tower featuring upscale residences with direct access to the promenade and Creek Marina."
+  },
+  {
+    "name": "Address The Bay",
+    "description": "An ultra-luxury beachfront Address development offering resort-style living in Emaar Beachfront."
+  },
+  {
+    "name": "Ajman",
+    "description": "A serene emirate known for its affordable housing, calm beaches, and growing residential sectors."
+  },
+  {
+    "name": "Al Awir",
+    "description": "A desert-fringe community known for farms, warehouses, and quiet residential compounds."
+  },
+  {
+    "name": "Al Awir First",
+    "description": "A sub-community of Al Awir featuring open spaces, villas, and agricultural lands."
+  },
+  {
+    "name": "Al Awir Second",
+    "description": "A tranquil district with farms, private estates, and industrial facilities on Dubai’s outskirts."
+  },
+  {
+    "name": "Al Bada'a",
+    "description": "A centrally located residential district near Jumeirah, known for its family-friendly villas and accessibility."
+  },
+  {
+    "name": "Al Baraha",
+    "description": "A lively Deira community with traditional markets, residential apartments, and easy transport links."
+  },
+  {
+    "name": "Al Barari",
+    "description": "A premium eco-friendly community offering luxury villas surrounded by lush greenery and lakes."
+  },
+  {
+    "name": "Al Barsha",
+    "description": "A well-known district offering malls, schools, and a mix of apartments and spacious villas."
+  },
+  {
+    "name": "Al Barsha Heights",
+    "description": "A vibrant mixed-use area with hotels, high-rise apartments, and business facilities."
+  },
+  {
+    "name": "Al Barsha South",
+    "description": "A growing suburban area with modern villas, new developments, and family-focused communities."
+  },
+  {
+    "name": "Al Buteen",
+    "description": "A historic part of Deira featuring waterfront proximity and traditional commercial areas."
+  },
+  {
+    "name": "Al Dhagaya",
+    "description": "A bustling heritage district in Deira known for markets, old souqs, and dense residential clusters."
+  },
+  {
+    "name": "Al Falak",
+    "description": "A developing residential and commercial zone with easy access to major Dubai roads."
+  },
+  {
+    "name": "Al Faqa",
+    "description": "A rural-style community on the Dubai–Abu Dhabi border known for villas and open landscapes."
+  },
+  {
+    "name": "Al Faris Arjan",
+    "description": "A residential building in Arjan offering modern units close to parks and community amenities."
+  },
+  {
+    "name": "Al Furjan",
+    "description": "A popular master community offering townhouses, villas, and metro-connected modern living."
+  },
+  {
+    "name": "Al Furjan Grove",
+    "description": "A residential cluster within Al Furjan featuring contemporary homes and community facilities."
+  },
+  {
+    "name": "Al Garhoud",
+    "description": "A well-established community near DXB Airport with villas, schools, and commercial centers."
+  },
+  {
+    "name": "Al Habtoor City",
+    "description": "A luxury riverside community featuring hotels, high-rise residences, and entertainment venues."
+  },
+  {
+    "name": "Al Hamra Island",
+    "description": "A waterfront Ras Al Khaimah destination with beachfront resorts and luxury residences."
+  },
+  {
+    "name": "Al Hamriya",
+    "description": "A central Dubai district known for its mix of shopping areas, offices, and residential buildings."
+  },
+  {
+    "name": "Al Hebiah",
+    "description": "A large developing zone featuring modern residential projects and upcoming communities."
+  },
+  {
+    "name": "Al Hudaiba",
+    "description": "A compact urban district offering government offices, hotels, and affordable apartments."
+  },
+  {
+    "name": "Al Jaddaf",
+    "description": "A fast-growing waterfront district with new hotels, residential towers, and cultural attractions."
+  },
+  {
+    "name": "Al Jafiliya",
+    "description": "A central community known for its metro station, residential buildings, and government offices."
+  },
+  {
+    "name": "Al Karama",
+    "description": "A lively district known for budget-friendly apartments, retail shops, and easy transportation."
+  },
+  {
+    "name": "Al Khabaisi",
+    "description": "A commercial district in Deira with warehouses, offices, and affordable residential units."
+  },
+  {
+    "name": "Al Khabeesi",
+    "description": "A transport-linked district featuring labor accommodations, warehouses, and commercial buildings."
+  },
+  {
+    "name": "Al Khawaneej",
+    "description": "A suburban community with farms, spacious villas, and family-oriented recreation spots."
+  },
+  {
+    "name": "Al Kifaf",
+    "description": "A central Dubai zone adjacent to Zabeel Park and known for mixed-use developments."
+  },
+  {
+    "name": "Al Lisaili",
+    "description": "A desert community popular for camel farms, outdoor activities, and private estates."
+  },
+  {
+    "name": "Al Maha",
+    "description": "A peaceful residential area offering villas and quiet suburban living."
+  },
+  {
+    "name": "Al Mahatah",
+    "description": "A Sharjah locality known for central residential buildings and easy access to city landmarks."
+  },
+  {
+    "name": "Al Mamzar",
+    "description": "A coastal community known for its park, beaches, and waterfront apartments."
+  },
+  {
+    "name": "Al Mamzer",
+    "description": "A variation of Al Mamzar, featuring beachfront access and family recreation facilities."
+  },
+  {
+    "name": "Al Manara",
+    "description": "A high-end villa community located between Sheikh Zayed Road and Jumeirah."
+  },
+  {
+    "name": "Al Mankhool",
+    "description": "A well-established Bur Dubai district featuring hotels, apartments, and retail streets."
+  },
+  {
+    "name": "Al Marjan Island",
+    "description": "A man-made island in Ras Al Khaimah offering resort-style living and waterfront properties."
+  },
+  {
+    "name": "Al Meryal",
+    "description": "A developing district featuring new residential and commercial expansions."
+  },
+  {
+    "name": "Al Mina",
+    "description": "A port-side district home to hotels, residential towers, and cruise terminal access."
+  },
+  {
+    "name": "Al Mizhar",
+    "description": "A family-oriented suburban community with spacious villas and schools."
+  },
+  {
+    "name": "Al Muraqqabat",
+    "description": "A busy Deira neighborhood known for hotels, shops, and vibrant city life."
+  },
+  {
+    "name": "Al Murar",
+    "description": "A densely populated district in Deira featuring affordable apartments and local markets."
+  },
+  {
+    "name": "Al Murqabat",
+    "description": "A commercial and residential zone known for retail activity and central convenience."
+  },
+  {
+    "name": "Al Mushrif",
+    "description": "An established area featuring embassies, villas, and community parks."
+  },
+  {
+    "name": "Al Muteena",
+    "description": "A diverse residential district offering budget-friendly apartments and close access to Deira hotspots."
+  },
+  {
+    "name": "Al Nahda",
+    "description": "A family-friendly district with tall apartment buildings, schools, and parks."
+  },
+  {
+    "name": "Al Qouz 4",
+    "description": "A part of Al Quoz featuring villas, warehouses, and mixed-use development."
+  },
+  {
+    "name": "Al Qudra",
+    "description": "A desert-adjacent area known for cycling tracks, nature spots, and future residential projects."
+  },
+  {
+    "name": "Al Quoz",
+    "description": "A large mixed-use district known for warehouses, art hubs, and industrial activity."
+  },
+  {
+    "name": "Al Quoz Industrial Area",
+    "description": "An industrial zone featuring warehouses, workshops, labor accommodations, and factories."
+  },
+  {
+    "name": "Al Qusais",
+    "description": "A major residential district with schools, hospitals, and affordable living options."
+  },
+  {
+    "name": "Al Qusais Industrial Area",
+    "description": "A commercial and logistics district with warehouses, factories, and industrial services."
+  },
+  {
+    "name": "Al Raffa",
+    "description": "A lively Bur Dubai district offering mid-range apartments and access to heritage attractions."
+  },
+  {
+    "name": "Al Ras",
+    "description": "A historic district near Dubai Creek known for the Gold Souk and traditional markets."
+  },
+  {
+    "name": "Al Rashidiya",
+    "description": "A suburban district near the airport offering villas, parks, and excellent road access."
+  },
+  {
+    "name": "Al Rashidiya South",
+    "description": "A residential extension of Rashidiya featuring quiet streets and villa communities."
+  },
+  {
+    "name": "Al Rifa",
+    "description": "A peaceful Sharjah district known for family-friendly residential areas and mosques."
+  },
+  {
+    "name": "Al Rigga",
+    "description": "A commercial hotspot in Deira featuring shopping streets, hotels, and metro access."
+  },
+  {
+    "name": "Al Rowaiyah",
+    "description": "A developing area featuring warehouses, labor housing, and logistics facilities."
+  },
+  {
+    "name": "Al Rowaiyah 3",
+    "description": "A sub-district with industrial facilities and staff accommodations."
+  },
+  {
+    "name": "Al Rowaiyah First",
+    "description": "A logistics-oriented zone with warehouses and commercial buildings."
+  },
+  {
+    "name": "Al Rowaiyah Second",
+    "description": "A sector of Rowaiyah with industrial units and transport-linked businesses."
+  },
+  {
+    "name": "Al Sabkha",
+    "description": "A busy district in Deira known for wholesale markets and affordable residences."
+  },
+  {
+    "name": "Al Safa",
+    "description": "A well-located upscale community offering villas near the Dubai Canal and Jumeirah."
+  },
+  {
+    "name": "Al Saja'a",
+    "description": "An industrial zone in Sharjah featuring warehouses, factories, and transport access."
+  },
+  {
+    "name": "Al Satwa",
+    "description": "A vibrant community known for its cultural mix, retail streets, and proximity to Sheikh Zayed Road."
+  },
+  {
+    "name": "Al Satwah",
+    "description": "A variant name for Al Satwa, known for lively streets and mixed-use developments."
+  },
+  {
+    "name": "Al Shindagha",
+    "description": "A heritage district near the waterfront featuring restored historical sites and museums."
+  },
+  {
+    "name": "Al Souq Al Kabir",
+    "description": "A traditional Bur Dubai district offering markets, restaurants, and budget living."
+  },
+  {
+    "name": "Al Sufouh",
+    "description": "A prime coastal district hosting universities, luxury hotels, and beachfront residences."
+  },
+  {
+    "name": "Al Suq Al Kabeer",
+    "description": "A historic retail district featuring souks, cultural spots, and affordable apartments."
+  },
+  {
+    "name": "Al Tawar First",
+    "description": "A peaceful residential zone in Al Twar featuring villas and community amenities."
+  },
+  {
+    "name": "Al Thuraya Building",
+    "description": "A residential building known for modern apartments and easy city access."
+  },
+  {
+    "name": "Al Twar",
+    "description": "A villa community renowned for its spacious homes and quiet urban environment."
+  },
+  {
+    "name": "Al Wadi Desert",
+    "description": "A desert retreat area known for luxury resorts and nature-focused living."
+  },
+  {
+    "name": "Al Warqa'a",
+    "description": "A family-friendly suburban district with villas, parks, and schools."
+  },
+  {
+    "name": "Al Warqaa",
+    "description": "A growing villa community offering peaceful living and suburban comfort."
+  },
+  {
+    "name": "Al Warsan",
+    "description": "A mixed-use area known for International City, warehouses, and residential clusters."
+  },
+  {
+    "name": "Al Warsan 1",
+    "description": "A sub-community offering apartments and proximity to International City amenities."
+  },
+  {
+    "name": "Al Warsan 2",
+    "description": "A residential and commercial zone within Warsan featuring mid-rise buildings."
+  },
+  {
+    "name": "Al Warsan 3",
+    "description": "A developing area with mixed-use projects and warehouse facilities."
+  },
+  {
+    "name": "Al Warsan 4",
+    "description": "A residential extension of Warsan offering affordable housing options."
+  },
+  {
+    "name": "Al Wasl",
+    "description": "A centrally located upscale district near City Walk and Downtown Dubai."
+  },
+  {
+    "name": "Al Wohoosh",
+    "description": "A lesser-known district with ongoing development and industrial facilities."
+  },
+  {
+    "name": "Al Yalayis",
+    "description": "A rapidly developing residential and industrial area near Jebel Ali."
+  },
+  {
+    "name": "Al Zorah City",
+    "description": "A luxury waterfront community in Ajman featuring beachfront resorts and premium residences."
+  },
+  {
+    "name": "API Arjan Two",
+    "description": "A residential building in Arjan offering modern apartments near parks and schools."
+  },
+  {
+    "name": "API Silicon Residency",
+    "description": "A residential development in Dubai Silicon Oasis with modern living spaces."
+  },
+  {
+    "name": "Apricot",
+    "description": "A residential building offering convenient access to Silicon Oasis business hubs."
+  },
+  {
+    "name": "Arabella Townhouses",
+    "description": "A tranquil Mudon community featuring contemporary townhouses and family amenities."
+  },
+  {
+    "name": "Arabella Townhouses 1",
+    "description": "The first phase of the Arabella project offering modern townhouses in a serene community."
+  },
+  {
+    "name": "Arabella Townhouses 2",
+    "description": "A continuation of Arabella with upgraded layouts and community facilities."
+  },
+  {
+    "name": "Arabella Townhouses 3",
+    "description": "The latest phase featuring enhanced townhouse designs and landscaped surroundings."
+  },
+  {
+    "name": "Arabian Gate",
+    "description": "A modern development in Dubai Silicon Oasis offering residential apartments and amenities."
+  },
+  {
+    "name": "Arabian Ranches",
+    "description": "A luxury villa community known for golf courses, green landscapes, and premium living."
+  },
+  {
+    "name": "Arabian Ranches 2",
+    "description": "A family-focused extension featuring new townhouse and villa clusters."
+  },
+  {
+    "name": "Arabian Ranches 3",
+    "description": "A master community offering modern townhouses, parks, and upcoming lifestyle facilities."
+  },
+  {
+    "name": "Arjan",
+    "description": "A fast-growing community featuring residential buildings, parks, and family attractions."
+  },
+  {
+    "name": "Arjan Tower",
+    "description": "A residential tower in Arjan offering contemporary apartments and urban convenience."
+  },
+  {
+    "name": "Avenue Residence",
+    "description": "A modern residential development known for spacious layouts and quality finishes."
+  },
+  {
+    "name": "Avenue Residence 1",
+    "description": "The first phase of Avenue Residences offering premium apartments in Al Furjan."
+  },
+  {
+    "name": "Avenue Residence 2",
+    "description": "A continuation of Avenue Residence with enhanced residential features."
+  },
+  {
+    "name": "Avenue Residence 3",
+    "description": "A modern residential building offering comfortable living in Al Furjan."
+  },
+  {
+    "name": "Avenue Residence 4",
+    "description": "A newly built residence featuring upgraded apartments and amenities."
+  },
+  {
+    "name": "Avenue Residence 5",
+    "description": "A premium development with spacious apartments in a family-friendly community."
+  },
+  {
+    "name": "Axis Residence",
+    "description": "A residential cluster in Dubai Silicon Oasis offering affordable apartments."
+  },
+  {
+    "name": "Axis Residence 1",
+    "description": "A mid-rise apartment building offering comfortable living in Silicon Oasis."
+  },
+  {
+    "name": "Axis Residence 2",
+    "description": "A residential tower featuring modern units and essential amenities."
+  },
+  {
+    "name": "Axis Residence 3",
+    "description": "A building offering budget-friendly apartments near DSO business hubs."
+  },
+  {
+    "name": "Axis Residence 4",
+    "description": "A mid-rise apartment building providing modern living spaces."
+  },
+  {
+    "name": "Axis Residence 5",
+    "description": "A residential structure offering comfortable apartments and easy access to facilities."
+  },
+  {
+    "name": "Axis Residence 6",
+    "description": "A tower offering contemporary apartments within the Axis cluster."
+  },
+  {
+    "name": "Axis Residence 7",
+    "description": "A building featuring budget-friendly units and convenient living."
+  },
+  {
+    "name": "Axis Residence 8",
+    "description": "A modern residential building located within Silicon Oasis."
+  },
+  {
+    "name": "Axis Residence 9",
+    "description": "A residential tower offering urban-style apartment living."
+  },
+  {
+    "name": "Axis Silver 1",
+    "description": "A modern residential building offering premium interiors in Dubai Silicon Oasis."
+  },
+  {
+    "name": "Babil",
+    "description": "A developing district featuring new residential buildings and commercial growth."
+  },
+  {
+    "name": "Barsha Heights",
+    "description": "A business and residential hub known for skyscrapers, hotels, and nightlife."
+  },
+  {
+    "name": "Bayshore",
+    "description": "A waterfront residential community in Creek Beach offering modern apartments."
+  },
+  {
+    "name": "Bayview",
+    "description": "A luxury beachfront development offering premium sea-view residences."
+  },
+  {
+    "name": "Beach Isle",
+    "description": "A beachfront community in Emaar Beachfront featuring luxury apartments and resort amenities."
+  },
+  {
+    "name": "Beach Mansion",
+    "description": "A premium beachfront tower offering elegant residences and uninterrupted sea views."
+  },
+  {
+    "name": "Beach Vista",
+    "description": "A twin-tower beachfront project offering stunning marina and sea views."
+  },
+  {
+    "name": "Beachgate by Address",
+    "description": "A luxury Address-branded beachfront residence with direct coastal access."
+  },
+  {
+    "name": "Bluewaters Island",
+    "description": "A high-end island destination featuring hotels, residences, and Ain Dubai."
+  },
+  {
+    "name": "Boutique XII",
+    "description": "A stylish residential building offering modern apartments and lifestyle facilities."
+  },
+  {
+    "name": "Breeze",
+    "description": "A Creek Harbour community offering coastal-style modern apartments."
+  },
+  {
+    "name": "Breeze Building 2",
+    "description": "A coastal-inspired residential building with contemporary apartments."
+  },
+  {
+    "name": "Breeze Building 3",
+    "description": "A modern Creek Harbour building offering waterfront-inspired living."
+  },
+  {
+    "name": "Building 1",
+    "description": "A residential building offering modern apartments and community amenities."
+  },
+  {
+    "name": "Building 18B",
+    "description": "A mid-rise residential building located within a master-planned community."
+  },
+  {
+    "name": "Building 19",
+    "description": "A modern apartment building offering accessible urban living."
+  },
+  {
+    "name": "Building 2A",
+    "description": "A contemporary residential building featuring functional living spaces."
+  },
+  {
+    "name": "Building 7",
+    "description": "A modern mid-rise building with comfortable apartments and essential amenities."
+  },
+  {
+    "name": "Building 9",
+    "description": "A residential building offering functional layouts and accessible community facilities."
+  },
+  {
+    "name": "Bur Dubai",
+    "description": "One of Dubai’s oldest districts featuring heritage sites, souks, and diverse communities."
+  },
+  {
+    "name": "Burj Khalifa District",
+    "description": "The heart of Downtown Dubai featuring iconic skyscrapers, luxury apartments, and world-class attractions."
+  },
+  {
+    "name": "Business Bay",
+    "description": "A major business and residential district known for modern towers, hotels, and canal views."
+  },
+  {
+    "name": "Cascade Ville",
+    "description": "A residential community featuring stylish homes within a landscaped environment."
+  },
+  {
+    "name": "Castleton",
+    "description": "A premium residential building in City Walk offering upscale apartments and green surroundings."
+  },
+  {
+    "name": "Cedre Villas",
+    "description": "A gated villa community in Dubai Silicon Oasis offering spacious homes and suburban comfort."
+  },
+  {
+    "name": "Celadon",
+    "description": "A Central Park at City Walk cluster offering modern apartments surrounded by greenery."
+  },
+  {
+    "name": "Central Park at City Walk",
+    "description": "A green-inspired community offering premium residences and urban park living."
+  },
+  {
+    "name": "Central Park Building 1",
+    "description": "A residential building within Central Park offering premium city-park living."
+  },
+  {
+    "name": "Central Park Plaza",
+    "description": "A premium lifestyle destination offering upscale residences and community amenities."
+  },
+  {
+    "name": "City Oasis",
+    "description": "A developing district offering comfortable residential living and community services."
+  },
+  {
+    "name": "City Oasis 1",
+    "description": "A residential building offering modern apartment living within City Oasis."
+  },
+  {
+    "name": "City Oasis 2",
+    "description": "A contemporary apartment building located within the City Oasis community."
+  },
+  {
+    "name": "City Oasis 3",
+    "description": "A modern residential tower offering functional layouts and urban convenience."
+  },
+  {
+    "name": "City of Arabia",
+    "description": "A mixed-use development in Dubailand featuring residential, commercial, and entertainment attractions."
+  },
+  {
+    "name": "City Walk",
+    "description": "A modern urban district combining retail, dining, residential living, and pedestrian-friendly outdoor spaces."
+  },
+  {
+    "name": "Cluster X",
+    "description": "A residential cluster within Jumeirah Lake Towers known for its waterfront towers and convenient amenities."
+  },
+  {
+    "name": "Creek Beach",
+    "description": "A beachfront community within Dubai Creek Harbour offering sandy shores, waterfront homes, and leisure spaces."
+  },
+  {
+    "name": "Creek Beach Lotus",
+    "description": "A residential sub-community in Creek Beach offering modern apartments near the waterfront promenade."
+  },
+  {
+    "name": "Creek Harbour View",
+    "description": "A scenic area within Dubai Creek Harbour offering stunning views of the creek and skyline."
+  },
+  {
+    "name": "Creek Island",
+    "description": "A premium waterfront island in Dubai Creek Harbour featuring luxury residences and vibrant leisure spots."
+  },
+  {
+    "name": "Culture Village",
+    "description": "A waterfront district celebrating arts, heritage, and luxury living along Dubai Creek."
+  },
+  {
+    "name": "D1 Tower",
+    "description": "A high-end residential skyscraper in Culture Village known for its design and premium creek views."
+  },
+  {
+    "name": "Damac Hills",
+    "description": "A master-planned golf community featuring villas, townhouses, and lush green landscapes."
+  },
+  {
+    "name": "Damac Hills 2",
+    "description": "An affordable suburban community offering themed clusters, parks, and family-friendly amenities."
+  },
+  {
+    "name": "Damac Riverside",
+    "description": "A waterfront residential community offering modern living with scenic surroundings."
+  },
+  {
+    "name": "Deira",
+    "description": "One of Dubai’s oldest districts known for its souks, markets, historic sites, and waterfront living."
+  },
+  {
+    "name": "Deira Islands",
+    "description": "A cluster of man-made islands offering new residential, retail, and tourism developments."
+  },
+  {
+    "name": "Dilan Tower",
+    "description": "A residential tower known for offering modern apartments with convenient city access."
+  },
+  {
+    "name": "Discovery Gardens",
+    "description": "A landscaped residential community offering affordable garden-style apartments."
+  },
+  {
+    "name": "District 11",
+    "description": "A residential zone within Mohammed Bin Rashid City featuring villas and upscale developments."
+  },
+  {
+    "name": "District 7",
+    "description": "A part of MBR City offering a mix of modern residences and urban facilities."
+  },
+  {
+    "name": "District One",
+    "description": "A luxury community in MBR City featuring villas, mansions, and the iconic Crystal Lagoon."
+  },
+  {
+    "name": "District One Mansions",
+    "description": "Ultra-luxury waterfront mansions within District One offering expansive layouts and premium views."
+  },
+  {
+    "name": "District One Phase III",
+    "description": "A newer expansion of District One offering modern waterfront residences."
+  },
+  {
+    "name": "District One Villas",
+    "description": "Luxury villas within District One known for their spacious designs and lagoon access."
+  },
+  {
+    "name": "District One West Phase I",
+    "description": "A premium community extension offering contemporary villas and refined waterfront living."
+  },
+  {
+    "name": "Downtown Dubai",
+    "description": "Dubai’s iconic urban hub featuring Burj Khalifa, Dubai Mall, and luxury residences."
+  },
+  {
+    "name": "Dragon City",
+    "description": "A commercial and residential district centered around the famous Dragon Mart retail complex."
+  },
+  {
+    "name": "Dubai",
+    "description": "The major city and emirate known for its global business hub, tourism, and cultural diversity."
+  },
+  {
+    "name": "Dubai Arts District",
+    "description": "A creative district featuring art galleries, studios, and cultural venues."
+  },
+  {
+    "name": "Dubai Creek Harbour (The Lagoons)",
+    "description": "A futuristic waterfront mega-development featuring luxury homes and the Dubai Creek Tower site."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 1 North",
+    "description": "A waterfront residential tower in Dubai Creek Harbour offering creek and skyline views."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 1 South",
+    "description": "A residential tower in Dubai Creek Harbour known for its modern design and scenic surroundings."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 2 North",
+    "description": "A premium tower offering waterfront living in the heart of Dubai Creek Harbour."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 2 South",
+    "description": "A residential tower featuring modern apartments with creek-facing views."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 3 North",
+    "description": "A luxury creekfront tower offering modern residences and vibrant leisure access."
+  },
+  {
+    "name": "Dubai Creek Residence Tower 3 South",
+    "description": "A waterfront residential tower providing premium creek views and lifestyle facilities."
+  },
+  {
+    "name": "Dubai Creek Residences",
+    "description": "A collection of residential towers lining the waterfront at Dubai Creek Harbour."
+  },
+  {
+    "name": "Dubai Creekside",
+    "description": "A scenic area along Dubai Creek known for its cultural landmarks and waterfront living."
+  },
+  {
+    "name": "Dubai Design District",
+    "description": "A creative hub for design, fashion, art, and innovation with modern office and residential spaces."
+  },
+  {
+    "name": "Dubai Digital Park",
+    "description": "A smart-city business district within Dubai Silicon Oasis offering tech-focused infrastructure."
+  },
+  {
+    "name": "Dubai Festival City",
+    "description": "A waterfront community featuring malls, residences, hotels, and vibrant outdoor spaces."
+  },
+  {
+    "name": "Dubai Harbour",
+    "description": "A premier waterfront district featuring luxury residences, marinas, and beachfront attractions."
+  },
+  {
+    "name": "Dubai Healthcare City",
+    "description": "A healthcare-focused district offering hospitals, clinics, and wellness facilities."
+  },
+  {
+    "name": "Dubai Healthcare City Phase 2",
+    "description": "An extension of DHCC providing additional medical, wellness, and residential developments."
+  },
+  {
+    "name": "Dubai Hills Estate",
+    "description": "A master-planned community featuring golf courses, villas, apartments, and parks."
+  },
+  {
+    "name": "Dubai Industrial City",
+    "description": "A major industrial zone offering logistics, manufacturing, and warehousing facilities."
+  },
+  {
+    "name": "Dubai International City",
+    "description": "An affordable residential district with country-themed clusters and vibrant retail areas."
+  },
+  {
+    "name": "Dubai International Financial Centre",
+    "description": "A global financial hub with premium offices, luxury residences, and fine dining."
+  },
+  {
+    "name": "Dubai Internet City",
+    "description": "A leading technology and business park hosting global and regional tech companies."
+  },
+  {
+    "name": "Dubai Investment Park",
+    "description": "A mixed-use industrial and residential district offering warehouses, offices, and housing."
+  },
+  {
+    "name": "Dubai Investment Park 2",
+    "description": "An extension of DIP featuring industrial facilities and affordable housing options."
+  },
+  {
+    "name": "Dubai Islands",
+    "description": "A large archipelago development offering resorts, housing, and beachfront attractions."
+  },
+  {
+    "name": "Dubai Knowledge Park",
+    "description": "A specialized education and training district for universities and learning institutions."
+  },
+  {
+    "name": "Dubai Land",
+    "description": "A massive development zone featuring residential communities and entertainment projects."
+  },
+  {
+    "name": "Dubai Logistics City",
+    "description": "A logistics and warehousing hub located near Al Maktoum International Airport."
+  },
+  {
+    "name": "Dubai Marina",
+    "description": "A prestigious waterfront district known for its high-rise living, marina views, and nightlife."
+  },
+  {
+    "name": "Dubai Maritime City",
+    "description": "A waterfront mixed-use zone specializing in maritime services and luxury residences."
+  },
+  {
+    "name": "Dubai Media City",
+    "description": "A major media and communications hub hosting broadcasters, media agencies, and offices."
+  },
+  {
+    "name": "Dubai Miracle Garden Area",
+    "description": "A vibrant district surrounding the world-famous floral attraction, Dubai Miracle Garden."
+  },
+  {
+    "name": "Dubai Parks and Resorts",
+    "description": "A mega theme park destination featuring Motiongate, Legoland, and Riverland."
+  },
+  {
+    "name": "Dubai Pearl",
+    "description": "A planned mixed-use development near Dubai Media City with luxury residences and commercial spaces."
+  },
+  {
+    "name": "Dubai Production City (IMPZ)",
+    "description": "A media production district offering studios, offices, and affordable residences."
+  },
+  {
+    "name": "Dubai River Walk",
+    "description": "A scenic waterfront promenade offering dining, retail, and residential developments."
+  },
+  {
+    "name": "Dubai Science Park",
+    "description": "A science and innovation district supporting companies in healthcare and life sciences."
+  },
+  {
+    "name": "Dubai Silicon Oasis",
+    "description": "A technology-focused free zone with residential communities, offices, and smart-city infrastructure."
+  },
+  {
+    "name": "Dubai South",
+    "description": "A large-scale development hosting Expo City, logistics hubs, and residential districts."
+  },
+  {
+    "name": "Dubai Sports City",
+    "description": "A sports-themed residential community featuring stadiums, sports facilities, and modern homes."
+  },
+  {
+    "name": "Dubai Studio City",
+    "description": "A media production district hosting film studios and production facilities."
+  },
+  {
+    "name": "Dubai Sustainable City",
+    "description": "An eco-friendly residential community focusing on sustainability and green living."
+  },
+  {
+    "name": "Dubai Textile City",
+    "description": "A commercial hub dedicated to the textile and fabric trade."
+  },
+  {
+    "name": "Dubai Trade Centre District",
+    "description": "An urban district surrounding the World Trade Centre with offices, hotels, and residences."
+  },
+  {
+    "name": "Dubai Urban Oasis",
+    "description": "A modern residential community designed around greenery and wellness-focused spaces."
+  },
+  {
+    "name": "Dubai Water Canal",
+    "description": "A scenic waterfront district featuring luxury homes, boardwalks, and lifestyle attractions."
+  },
+  {
+    "name": "Dubai Waterfront",
+    "description": "A coastal development offering waterfront communities and leisure destinations."
+  },
+  {
+    "name": "Dubai Wharf",
+    "description": "A modern creekside development featuring mid-rise residences and retail promenades."
+  },
+  {
+    "name": "Dubai Wharf Tower 2",
+    "description": "A waterfront residential tower offering modern apartments in Dubai Wharf."
+  },
+  {
+    "name": "Dubai Wharf Tower 3",
+    "description": "A creekside residential tower known for its spacious apartments and scenic views."
+  },
+  {
+    "name": "Dubailand",
+    "description": "A massive master community featuring residential neighborhoods, attractions, and parks."
+  },
+  {
+    "name": "Eight at Al Furjan",
+    "description": "A residential building in Al Furjan offering modern apartments and convenient access to key roads."
+  },
+  {
+    "name": "EMAAR Beachfront",
+    "description": "A luxury island community offering beachfront residences and access to a private sandy shore."
+  },
+  {
+    "name": "Emaar South",
+    "description": "A suburban development near the airport offering villas, townhomes, and golf course living."
+  },
+  {
+    "name": "Emirates Downtown",
+    "description": "A modern mixed-use district offering residences, business hubs, and urban amenities."
+  },
+  {
+    "name": "Emirates Golf Club",
+    "description": "A prestigious golf destination surrounded by luxury residences and scenic fairways."
+  },
+  {
+    "name": "Emirates Hills",
+    "description": "An ultra-luxury gated villa community known as the 'Beverly Hills of Dubai'."
+  },
+  {
+    "name": "Enkhali",
+    "description": "A community offering residential living with access to major city routes."
+  },
+  {
+    "name": "Erin",
+    "description": "A residential locality offering peaceful living with convenient access to nearby city districts."
+  },
+  {
+    "name": "Expo City Dubai",
+    "description": "A sustainable smart-city district developed from Expo 2020, offering residential, business, and cultural hubs."
+  },
+  {
+    "name": "Eyal Nasser",
+    "description": "A community in Deira known for its residential buildings and close proximity to traditional marketplaces."
+  },
+  {
+    "name": "Falcon Business Bay",
+    "description": "A modern development in Business Bay offering commercial and residential spaces near Dubai Canal."
+  },
+  {
+    "name": "Falcon City of Wonders",
+    "description": "A themed mega-community inspired by world monuments, offering villas, parks, and family amenities."
+  },
+  {
+    "name": "Fern",
+    "description": "A premium residential development known for contemporary layouts and green-inspired design."
+  },
+  {
+    "name": "Festival Plaza",
+    "description": "A retail and lifestyle destination in Jebel Ali featuring shops, dining, and nearby residences."
+  },
+  {
+    "name": "Fujairah",
+    "description": "An emirate on the UAE’s east coast known for its beaches, mountains, and relaxed lifestyle."
+  },
+  {
+    "name": "Ghaf Woods",
+    "description": "A forest-themed residential community offering nature-inspired living and modern amenities."
+  },
+  {
+    "name": "Ghantoot Area",
+    "description": "A quiet area between Dubai and Abu Dhabi offering beachfront resorts and exclusive residences."
+  },
+  {
+    "name": "Global Village Area",
+    "description": "A culturally vibrant district surrounding the Global Village attraction with easy road connectivity."
+  },
+  {
+    "name": "Grand Bleu Tower 1",
+    "description": "A beachfront tower at Emaar Beachfront designed in collaboration with Elie Saab."
+  },
+  {
+    "name": "Grand Bleu Tower 2",
+    "description": "A luxury residential tower offering stunning sea views and designer interiors at Emaar Beachfront."
+  },
+  {
+    "name": "Green Community",
+    "description": "A family-friendly gated community offering villas, townhouses, and abundant landscaped parks."
+  },
+  {
+    "name": "Grosvenor House Marina",
+    "description": "A luxury residential area near Grosvenor House Hotel offering premium marina-front living."
+  },
+  {
+    "name": "Grove",
+    "description": "A modern residential cluster emphasizing contemporary designs and community-focused amenities."
+  },
+  {
+    "name": "Hatta",
+    "description": "A mountainous region of Dubai known for its natural landscapes, farms, and outdoor adventure spots."
+  },
+  {
+    "name": "Hawana Salalah",
+    "description": "A waterfront resort community in Oman offering luxury residences and vibrant leisure facilities."
+  },
+  {
+    "name": "Hayat Island",
+    "description": "A serene island destination in Ras Al Khaimah offering beachfront living and premium resorts."
+  },
+  {
+    "name": "Hor Al Anz",
+    "description": "A long-established residential area in Deira known for its accessibility and community services."
+  },
+  {
+    "name": "Hor Al Anz East",
+    "description": "A sub-community of Hor Al Anz offering affordable apartments and close proximity to major city routes."
+  },
+  {
+    "name": "Horizon City",
+    "description": "A modern urban development offering contemporary living and convenient lifestyle access."
+  },
+  {
+    "name": "Ice Residence Al Furjan",
+    "description": "A residential development in Al Furjan offering modern apartments with community amenities."
+  },
+  {
+    "name": "IMG Worlds Area",
+    "description": "A district near IMG Worlds of Adventure featuring residential communities and entertainment access."
+  },
+  {
+    "name": "International City",
+    "description": "An affordable, multicultural residential community designed with country-themed clusters."
+  },
+  {
+    "name": "International City Phase 2",
+    "description": "An expansion of International City offering modern apartment buildings and improved infrastructure."
+  },
+  {
+    "name": "Iris Amber",
+    "description": "A contemporary residential project known for modern layouts and easy access to city hubs."
+  },
+  {
+    "name": "IT Plaza",
+    "description": "A business tower in Dubai Silicon Oasis catering primarily to tech and office clients."
+  },
+  {
+    "name": "Jadaf Waterfront",
+    "description": "A waterfront district in Al Jaddaf featuring contemporary residences and cultural attractions."
+  },
+  {
+    "name": "Jebel Ali Free Zone",
+    "description": "A major industrial and trade free zone offering logistics, warehouses, and corporate offices."
+  },
+  {
+    "name": "Jebel Ali Hills",
+    "description": "A freehold land development area offering plots for custom-built villas."
+  },
+  {
+    "name": "Jebel Ali Village",
+    "description": "A modern residential community blending greenery with contemporary suburban living."
+  },
+  {
+    "name": "Jumeirah",
+    "description": "A prestigious coastal district featuring beaches, villas, cafés, and luxury urban living."
+  },
+  {
+    "name": "Jumeirah 1",
+    "description": "A beachfront neighborhood known for its villas, beaches, and proximity to key attractions."
+  },
+  {
+    "name": "Jumeirah 2",
+    "description": "A refined coastal area featuring upscale residences and access to scenic waterfronts."
+  },
+  {
+    "name": "Jumeirah 3",
+    "description": "A tranquil villa community along the coast offering exclusive residential living."
+  },
+  {
+    "name": "Jumeirah Bay",
+    "description": "An exclusive private island shaped like a seahorse offering ultra-luxury villas."
+  },
+  {
+    "name": "Jumeirah Bay Island",
+    "description": "A luxury island community connected to Jumeirah offering elite beachfront residences."
+  },
+  {
+    "name": "Jumeirah Beach Residence",
+    "description": "A premium beachfront district offering high-rise apartments and access to The Walk and The Beach."
+  },
+  {
+    "name": "Jumeirah Garden City",
+    "description": "A redevelopment zone offering mixed-use residential and commercial communities."
+  },
+  {
+    "name": "Jumeirah Golf Estates",
+    "description": "A luxury golf community built around world-class golf courses and premium villas."
+  },
+  {
+    "name": "Jumeirah Heights",
+    "description": "A residential cluster offering lakefront apartments and townhomes in JLT."
+  },
+  {
+    "name": "Jumeirah Island 2",
+    "description": "A part of the Jumeirah Islands development offering villa clusters surrounded by lakes."
+  },
+  {
+    "name": "Jumeirah Islands",
+    "description": "A luxury villa community set on a series of man-made islands connected by bridges."
+  },
+  {
+    "name": "Jumeirah Lake Towers (JLT)",
+    "description": "A major mixed-use district featuring lakefront living, high-rise towers, and vibrant commercial activity."
+  },
+  {
+    "name": "Jumeirah Living",
+    "description": "A collection of branded luxury residences offering premium services and exclusive amenities."
+  },
+  {
+    "name": "Jumeirah Palm Residences",
+    "description": "Prestigious waterfront residences located on the iconic Palm Jumeirah."
+  },
+  {
+    "name": "Jumeirah Park",
+    "description": "A villa community offering modern family homes with landscaped green spaces."
+  },
+  {
+    "name": "Jumeirah Village Circle (JVC)",
+    "description": "A circular master community featuring apartments, villas, and an affordable lifestyle environment."
+  },
+  {
+    "name": "Jumeirah Village South",
+    "description": "A residential extension of JVC offering modern apartments and easy city access."
+  },
+  {
+    "name": "Jumeirah Village Triangle",
+    "description": "A suburban villa and townhouse community with tranquil family-friendly environments."
+  },
+  {
+    "name": "La Mer",
+    "description": "A beachfront district featuring residential communities, boutique shops, and sandy shores."
+  },
+  {
+    "name": "La Vista Residence",
+    "description": "A residential building community offering affordable apartment living."
+  },
+  {
+    "name": "La Vista Residence 1",
+    "description": "A residential tower offering affordable apartments in a community-friendly environment."
+  },
+  {
+    "name": "La Vista Residence 2",
+    "description": "An apartment building in La Vista offering practical layouts and urban conveniences."
+  },
+  {
+    "name": "Lagoon Views",
+    "description": "A waterfront residential development overlooking turquoise lagoons and scenic landscapes."
+  },
+  {
+    "name": "Lakeview Heights",
+    "description": "A peaceful residential area offering scenic lake views and modern homes."
+  },
+  {
+    "name": "Laurel",
+    "description": "A contemporary residential building emphasizing elegance and modern interior design."
+  },
+  {
+    "name": "Le Hemaira",
+    "description": "A residential community designed for serene suburban living with urban access."
+  },
+  {
+    "name": "Lehbab",
+    "description": "A sparsely populated district known for desert landscapes and peaceful surroundings."
+  },
+  {
+    "name": "Lehbab Second",
+    "description": "An extension of Lehbab featuring quiet living and open desert spaces."
+  },
+  {
+    "name": "Living Legends",
+    "description": "A golf-themed community offering villas, apartments, and lush green surroundings."
+  },
+  {
+    "name": "Liwan",
+    "description": "A mid-market residential community with a mix of apartments and townhouses."
+  },
+  {
+    "name": "Luxury Creekside",
+    "description": "A premium waterfront living area offering upscale homes with creek views."
+  },
+  {
+    "name": "Lynx Residence",
+    "description": "A residential building known for contemporary design and easy access to community facilities."
+  },
+  {
+    "name": "Madinat Al Arab",
+    "description": "A planned coastal city within Dubai Waterfront offering premium seaside living."
+  },
+  {
+    "name": "Madinat Jumeirah Living",
+    "description": "A luxurious freehold community near Burj Al Arab offering pedestrian-friendly residential clusters."
+  },
+  {
+    "name": "Madison Columbus",
+    "description": "A modern residential development featuring contemporary living spaces."
+  },
+  {
+    "name": "Majan",
+    "description": "A mixed-use community in Dubailand offering affordable apartments and retail spaces."
+  },
+  {
+    "name": "Majan Hills",
+    "description": "A serene residential zone within Majan offering access to nearby attractions."
+  },
+  {
+    "name": "Majan One Residences",
+    "description": "A residential development featuring modern apartments in the Majan community."
+  },
+  {
+    "name": "Majestic Towers District",
+    "description": "A cluster of residential towers offering urban living with modern amenities."
+  },
+  {
+    "name": "Makeen Al Furjan Villas",
+    "description": "A villa collection in Al Furjan offering luxury layouts and family-friendly living."
+  },
+  {
+    "name": "Makeen Residence Al Jaddaf",
+    "description": "A modern residential building in Al Jaddaf offering upscale apartment options."
+  },
+  {
+    "name": "Manazel Al Khor",
+    "description": "A traditional-style waterfront residential community along Dubai Creek."
+  },
+  {
+    "name": "Margab",
+    "description": "A desert-surrounded locality known for quiet living and open landscapes."
+  },
+  {
+    "name": "Margham",
+    "description": "A peaceful desert community offering tranquil living outside central Dubai."
+  },
+  {
+    "name": "Marina Gate",
+    "description": "A trio of luxury towers in Dubai Marina offering premium apartments and marina views."
+  },
+  {
+    "name": "Marina Vista",
+    "description": "A beachfront residential project at Emaar Beachfront offering sea-facing homes."
+  },
+  {
+    "name": "Mereiyeel",
+    "description": "A residential area offering peaceful suburban-style living."
+  },
+  {
+    "name": "Meydan",
+    "description": "A master development known for Meydan Racecourse, luxury residences, and modern urban projects."
+  },
+  {
+    "name": "Meydan 1",
+    "description": "A central zone within Meydan offering high-rise living and proximity to major city attractions."
+  },
+  {
+    "name": "Meydan City",
+    "description": "A large urban development featuring premium residential communities and entertainment venues."
+  },
+  {
+    "name": "Midtown",
+    "description": "A residential complex in IMPZ offering mid-rise buildings and community facilities."
+  },
+  {
+    "name": "Midtown Central Majan",
+    "description": "A central residential development in Majan offering modern apartments."
+  },
+  {
+    "name": "Millennium Talia Residences",
+    "description": "A hotel-branded residential development offering serviced apartments and premium amenities."
+  },
+  {
+    "name": "Mina Al Arab",
+    "description": "A beachfront residential and resort destination in Ras Al Khaimah offering island-style living."
+  },
+  {
+    "name": "Mina Rashid",
+    "description": "A waterfront development reimagining Dubai’s historic port with luxury residences and marinas."
+  },
+  {
+    "name": "Mirdif",
+    "description": "A long-standing suburban community offering villas, parks, and family amenities."
+  },
+  {
+    "name": "Mohammed Bin Rashid City",
+    "description": "A mega-development featuring luxury communities, parks, and the world’s largest crystal lagoon."
+  },
+  {
+    "name": "Mohammed Bin Rashid City (MBR City)",
+    "description": "A master-planned community offering premium living with modern urban design."
+  },
+  {
+    "name": "Motor City",
+    "description": "A motorsport-themed community with apartments, townhouses, and retail attractions."
+  },
+  {
+    "name": "Mudon",
+    "description": "A suburban community offering villas, townhouses, and numerous parks."
+  },
+  {
+    "name": "Murooj Al Furjan",
+    "description": "A villa community in Al Furjan offering modern layouts and landscaped green spaces."
+  },
+  {
+    "name": "Murooj Al Furjan West",
+    "description": "A western extension of Murooj Al Furjan offering premium family villas."
+  },
+  {
+    "name": "Murooj Al Furjan West Phase 2",
+    "description": "A phase of the Murooj Al Furjan West development offering additional luxury villas."
+  },
+  {
+    "name": "Muscat",
+    "description": "The capital city of Oman known for its coastal beauty, mountains, and cultural heritage."
+  },
+  {
+    "name": "Myrtle",
+    "description": "A contemporary residence offering modern apartments and lifestyle amenities."
+  },
+  {
+    "name": "Nad Al Hamar",
+    "description": "A residential and commercial district known for spacious villas and city access."
+  },
+  {
+    "name": "Nad Al Sheba",
+    "description": "A popular villa community featuring modern homes and recreational facilities."
+  },
+  {
+    "name": "Nadd Hessa",
+    "description": "A residential locality offering convenient access to major highways and business districts."
+  },
+  {
+    "name": "Narcissus Building",
+    "description": "A residential building offering contemporary apartments with essential amenities."
+  },
+  {
+    "name": "Naya at District One",
+    "description": "A lagoon-side residential development within District One offering luxury modern living."
+  },
+  {
+    "name": "Nazwa",
+    "description": "A quiet desert-side locality offering peaceful living away from the city's bustle."
+  },
+  {
+    "name": "New Dubai Bay",
+    "description": "A waterfront development offering modern coastal homes and vibrant lifestyle attractions."
+  },
+  {
+    "name": "Nshama Town Square",
+    "description": "A large-scale suburban community offering affordable townhouses, apartments, and parks."
+  },
+  {
+    "name": "Orchid",
+    "description": "A residential development offering refined contemporary living spaces."
+  },
+  {
+    "name": "Palace Beach Residence",
+    "description": "A luxury beachfront residential tower at Emaar Beachfront offering hotel-style living."
+  },
+  {
+    "name": "Palace Beach Residence Podium",
+    "description": "The podium section of Palace Beach Residence featuring amenities and exclusive facilities."
+  },
+  {
+    "name": "Palazzo Versace",
+    "description": "A luxury designer hotel and residence inspired by the iconic Versace style in Culture Village."
+  },
+  {
+    "name": "Palm Atlantis Residences",
+    "description": "Luxury serviced residences connected to the iconic Atlantis resort on Palm Jumeirah."
+  },
+  {
+    "name": "Palm Deira",
+    "description": "A planned waterfront extension of Deira offering future residential and commercial developments."
+  },
+  {
+    "name": "Palm Jebel Ali",
+    "description": "A man-made palm-shaped island offering luxury beachfront residences and resorts."
+  },
+  {
+    "name": "Palm Jumeirah",
+    "description": "Dubai’s iconic palm-shaped island offering luxury villas, apartments, and global attractions."
+  },
+  {
+    "name": "Palm Jumeirah Crescent",
+    "description": "The outer arc of Palm Jumeirah hosting luxury resorts and exclusive beachfront properties."
+  },
+  {
+    "name": "Port de La Mer",
+    "description": "A Mediterranean-inspired island community offering beachfront apartments and marina access."
+  },
+  {
+    "name": "Port Rashid",
+    "description": "A historic port transformed into a luxury waterfront district with residential towers."
+  },
+  {
+    "name": "Port Saeed",
+    "description": "A central Deira district featuring residential buildings, malls, and creekside views."
+  },
+  {
+    "name": "Puerto Banus",
+    "description": "A luxury-style community inspired by the famous Spanish marina destination."
+  },
+  {
+    "name": "Ras Al Khaimah",
+    "description": "A northern emirate offering beaches, mountains, and growing residential communities."
+  },
+  {
+    "name": "Ras Al Khor",
+    "description": "A district near Dubai Creek known for the wildlife sanctuary and upcoming residential projects."
+  },
+  {
+    "name": "Rashid Yachts And Marina",
+    "description": "A premium marina-front development offering luxury residences and yachting facilities."
+  },
+  {
+    "name": "Reem Community",
+    "description": "A tranquil suburban community offering townhouses and green family-oriented environments."
+  },
+  {
+    "name": "Reem Island",
+    "description": "A major residential island in Abu Dhabi featuring towers, villas, and waterfront living."
+  },
+  {
+    "name": "Rega Al Buteen",
+    "description": "A community within Deira offering residential and commercial properties."
+  },
+  {
+    "name": "Remah",
+    "description": "A peaceful desert-side locality offering quiet living with natural surroundings."
+  },
+  {
+    "name": "Remraam",
+    "description": "An affordable family community offering apartments surrounded by parks and open spaces."
+  },
+  {
+    "name": "Residences 1",
+    "description": "A residential building offering modern apartments and community amenities."
+  },
+  {
+    "name": "Residences 11",
+    "description": "A contemporary residence providing upscale apartment living."
+  },
+  {
+    "name": "Residences 12",
+    "description": "A residential tower featuring modern homes and essential facilities."
+  },
+  {
+    "name": "Residences 13",
+    "description": "A mid-rise building offering comfortable modern apartments."
+  },
+  {
+    "name": "Residences 14",
+    "description": "A modern residential structure offering refined living spaces."
+  },
+  {
+    "name": "Residences 15",
+    "description": "A residential building designed with modern architecture and urban conveniences."
+  },
+  {
+    "name": "Residences 16",
+    "description": "A residential community offering contemporary apartments and accessible amenities."
+  },
+  {
+    "name": "Residences 4",
+    "description": "A residential tower offering well-planned apartments in an urban neighborhood."
+  },
+  {
+    "name": "Residences 6",
+    "description": "A contemporary apartment building offering comfortable residential living."
+  },
+  {
+    "name": "Residences 7",
+    "description": "A modern residential tower providing well-designed apartment layouts."
+  },
+  {
+    "name": "Rhodi Residence",
+    "description": "A contemporary residential development offering modern living spaces and convenient urban access."
+  },
+
+  {
+    "name": "Riah Towers",
+    "description": "A well-designed tower featuring spacious layouts and close proximity to essential lifestyle amenities."
+  },
+
+  {
+    "name": "Rose Tower",
+    "description": "A prominent residential high-rise known for its central location and stylish architecture."
+  },
+
+  {
+    "name": "Rosewater",
+    "description": "A waterfront-inspired community designed for serene living with modern urban comforts."
+  },
+
+  {
+    "name": "Rosewater Building 2",
+    "description": "A residential building within the Rosewater community offering contemporary units near key city attractions."
+  },
+
+  {
+    "name": "Rosewater Building 3",
+    "description": "A modern building in the Rosewater area featuring elegant interiors and a peaceful environment."
+  },
+
+  {
+    "name": "Rove City Walk",
+    "description": "A vibrant hotel-style residence located at City Walk, offering lively surroundings and modern hospitality comforts."
+  },
+
+  {
+    "name": "Royal Business Park",
+    "description": "A premium commercial destination offering high-quality business spaces and excellent connectivity."
+  },
+  {
+    "name": "Ruby Residence",
+    "description": "A residential complex designed for comfortable urban living with essential facilities and services."
+  },
+
+  {
+    "name": "Saadiyat Island",
+    "description": "A prestigious island community home to world-class museums, luxury residences, and pristine beaches."
+  },
+
+  {
+    "name": "Safa Gate",
+    "description": "An area adjacent to Safa Park offering easy access to green landscapes and key city destinations."
+  },
+
+  {
+    "name": "Safa Park",
+    "description": "A popular urban park neighborhood offering scenic surroundings and close proximity to Dubai’s main attractions."
+  },
+  {
+    "name": "Seapoint",
+    "description": "A waterfront residential development offering luxury living with uninterrupted sea views."
+  },
+  {
+    "name": "Serena",
+    "description": "A family-friendly community with Mediterranean-style homes and serene suburban surroundings."
+  },
+
+  {
+    "name": "Sharjah",
+    "description": "A cultural hub in the UAE known for its heritage sites, waterfront areas, and growing residential zones."
+  },
+
+  {
+    "name": "Sheikh Zayed Heights",
+    "description": "A modern community located near Sheikh Zayed Road, offering excellent connectivity and upscale living."
+  },
+
+  {
+    "name": "Sheikh Zayed Road",
+    "description": "Dubai’s main highway corridor lined with commercial towers, residences, and major city destinations."
+  },
+  {
+    "name": "Silicon Arch",
+    "description": "A residential building in Dubai Silicon Oasis offering modern units and access to tech-focused amenities."
+  },
+  {
+    "name": "Silicon Avenue",
+    "description": "A contemporary community in Silicon Oasis known for its well-planned residences and proximity to tech hubs."
+  },
+  {
+    "name": "Silicon Central",
+    "description": "A mixed-use development in Silicon Oasis offering retail, residential, and entertainment spaces."
+  },
+
+  {
+    "name": "Silicon Gates",
+    "description": "A residential cluster in Silicon Oasis known for its convenient location and modern apartments."
+  },
+
+  {
+    "name": "Silicon Gates 1",
+    "description": "A mid-rise building within Silicon Gates offering comfortable and affordable apartments."
+  },
+
+  {
+    "name": "Silicon Gates 2",
+    "description": "A residential tower in Silicon Gates featuring modern interiors and community amenities."
+  },
+
+  {
+    "name": "Silicon Gates 3",
+    "description": "A contemporary residential building offering well-designed units in Silicon Oasis."
+  },
+
+  {
+    "name": "Silicon Gates 4",
+    "description": "A modern apartment complex in Silicon Oasis known for comfortable living and good connectivity."
+  },
+
+  {
+    "name": "Silicon Heights",
+    "description": "A residential area within Silicon Oasis providing modern apartments and urban accessibility."
+  },
+
+  {
+    "name": "Silicon Heights 1",
+    "description": "A contemporary residential building offering affordable units in a tech-focused district."
+  },
+
+  {
+    "name": "Silicon Heights 2",
+    "description": "A modern apartment building in Silicon Oasis designed for convenient urban living."
+  },
+
+  {
+    "name": "Silicon Oasis Headquarters",
+    "description": "The central business and administrative hub of Dubai Silicon Oasis."
+  },
+
+  {
+    "name": "Silicon Oasis Techno Hub",
+    "description": "A technology-focused business center providing offices and innovation facilities."
+  },
+  {
+    "name": "Silicon Oasis Techno Hub 1",
+    "description": "A dedicated workspace within Techno Hub offering advanced tech and business infrastructure."
+  },
+  {
+    "name": "Silicon Oasis Techno Hub 2",
+    "description": "A commercial building supporting tech companies and innovation within Silicon Oasis."
+  },
+
+  {
+    "name": "Silicon Park",
+    "description": "An integrated smart city development in Silicon Oasis offering mixed-use living and business spaces."
+  },
+  {
+    "name": "Silicon Residence 1",
+    "description": "A residential building offering comfortable urban living in Silicon Oasis."
+  },
+  {
+    "name": "Silicon Residence 2",
+    "description": "A modern apartment residence located in the heart of Silicon Oasis."
+  },
+
+  {
+    "name": "Silicon Star",
+    "description": "A residential development known for its convenient location and contemporary living spaces."
+  },
+  {
+    "name": "Silicon Star 2",
+    "description": "A modern building offering affordable urban living within Silicon Oasis."
+  },
+  {
+    "name": "Siniya Island",
+    "description": "A scenic island area known for its natural landscapes and environmental importance."
+  },
+
+  {
+    "name": "SIT Tower",
+    "description": "A commercial tower offering office spaces in a strategic urban location."
+  },
+
+  {
+    "name": "Skyline District",
+    "description": "A vibrant urban area known for its modern architecture and cityscape views."
+  },
+
+  {
+    "name": "Sobha Hartland",
+    "description": "A luxury master community offering waterfront villas, upscale apartments, and premium urban living."
+  },
+
+  {
+    "name": "Sobha Hartland II",
+    "description": "The next phase of the prestigious Sobha Hartland community featuring refined residential experiences."
+  },
+  {
+    "name": "Sobha Seahaven",
+    "description": "A luxury waterfront development offering scenic marina views and high-end residences."
+  },
+
+  {
+    "name": "South Beach Holiday Homes",
+    "description": "A beachfront holiday home community designed for short-term stays and leisure-driven living."
+  },
+
+  {
+    "name": "Suha Creek Hotel Apartments",
+    "description": "A modern hotel apartment complex near Dubai Creek offering extended-stay comfort."
+  },
+  {
+    "name": "Summer",
+    "description": "A residential cluster with bright, contemporary homes near Creek Beach."
+  },
+
+  {
+    "name": "Sunrise Bay",
+    "description": "A beachfront tower offering panoramic sea views within Emaar Beachfront."
+  },
+
+  {
+    "name": "Sunrise Bay Podium",
+    "description": "The podium-level residences of Sunrise Bay offering enhanced amenities and connectivity."
+  },
+
+  {
+    "name": "Sunset at Creek Beach",
+    "description": "A beach-inspired residential community with scenic views and family-friendly living."
+  },
+
+  {
+    "name": "Surf",
+    "description": "A modern Creek Beach development offering resort-style living and waterfront access."
+  },
+
+  {
+    "name": "Tech Valley Dubai",
+    "description": "A technology-driven district focused on innovation, startups, and advanced digital infrastructure."
+  },
+
+  {
+    "name": "The Apartments",
+    "description": "A residential development offering modern units in a centrally connected district."
+  },
+
+  {
+    "name": "The Dubai Creek Residences - North Podium",
+    "description": "A podium-level luxury residence within Dubai Creek Harbour offering waterfront views."
+  },
+
+  {
+    "name": "The Dubai Creek Residences - South Podium",
+    "description": "Premium residences located on the southern podium of Creek Harbour’s iconic towers."
+  },
+
+  {
+    "name": "The Greens",
+    "description": "A well-established residential community featuring mid-rise buildings and green surroundings."
+  },
+
+  {
+    "name": "The Lakes",
+    "description": "A serene villa community surrounded by lakes, landscaped parks, and luxury amenities."
+  },
+
+  {
+    "name": "The Meadows",
+    "description": "A peaceful suburban community known for villa living and landscaped green spaces."
+  },
+
+  {
+    "name": "The Oasis",
+    "description": "A master community designed around luxury villas, lush landscapes, and resort-style amenities."
+  },
+
+  {
+    "name": "The Pearl",
+    "description": "A premium residential development offering elegant homes and coastal-inspired living."
+  },
+
+  {
+    "name": "The Residences at District One",
+    "description": "Luxury waterfront residences located in the high-end District One community."
+  },
+
+  {
+    "name": "The Springs",
+    "description": "A family-friendly villa community known for lakes, parks, and calm suburban living."
+  },
+
+  {
+    "name": "The Sustainable City",
+    "description": "An eco-friendly community focused on renewable energy, green living, and sustainable design."
+  },
+
+  {
+    "name": "The Valley",
+    "description": "A suburban community offering townhouses, parks, and family-oriented amenities."
+  },
+
+  {
+    "name": "The Valley 2",
+    "description": "The second phase of The Valley featuring modern homes and enhanced green spaces."
+  },
+
+  {
+    "name": "The Views",
+    "description": "A residential community offering golf course and canal views with premium mid-rise developments."
+  },
+
+  {
+    "name": "The Villa",
+    "description": "A spacious villa community known for Spanish-style homes and quiet suburban living."
+  },
+
+  {
+    "name": "The World Islands",
+    "description": "A collection of man-made islands shaped like a world map, offering exclusive resort-style living."
+  },
+
+  {
+    "name": "Thyme Central Park",
+    "description": "A residential tower in Central Park offering city views and access to lush park landscapes."
+  },
+
+  {
+    "name": "Tilal Al Furjan",
+    "description": "A residential project offering townhouses and villas within the Al Furjan master community."
+  },
+  {
+    "name": "Tilal Al Ghaf",
+    "description": "A large master community built around a crystal lagoon and offering premium homes."
+  },
+  {
+    "name": "Town Square Dubai",
+    "description": "A major community providing affordable living, green spaces, and retail convenience."
+  },
+  {
+    "name": "Trade Centre 2",
+    "description": "A centrally located district near Sheikh Zayed Road featuring high-rise buildings and hotels."
+  },
+  {
+    "name": "Tria By Deyaar",
+    "description": "A modern residential tower by Deyaar offering futuristic design and urban convenience."
+  },
+  {
+    "name": "Um Al Sheif",
+    "description": "A suburban residential area known for its villas and strategic location near SZR."
+  },
+  {
+    "name": "Um Ramool",
+    "description": "An industrial and commercial district offering warehouses and mixed-use developments."
+  },
+  {
+    "name": "Umm Al Daman",
+    "description": "A quiet locality offering residential and community-based developments."
+  },
+  {
+    "name": "Umm Al Mo'meneen",
+    "description": "A residential community featuring modern homes and easy access to city routes."
+  },
+  {
+    "name": "Umm Eselay",
+    "description": "A peaceful suburb characterized by villas and open landscapes."
+  },
+
+  {
+    "name": "Umm Hurair First",
+    "description": "A central district offering residential units and proximity to Dubai Creek and hospitals."
+  },
+  {
+    "name": "Umm Hurair Second",
+    "description": "A mixed-use community featuring offices, residential buildings, and retail outlets."
+  },
+  {
+    "name": "Umm Suqeim",
+    "description": "A coastal residential district known for beaches, villas, and access to city landmarks."
+  },
+  {
+    "name": "Umm Suqeim 1",
+    "description": "A seaside neighborhood offering upscale villas and access to Jumeirah Beach."
+  },
+  {
+    "name": "Umm Suqeim 1 Villas",
+    "description": "A villa sub-community within Umm Suqeim 1 offering luxury coastal homes."
+  },
+  {
+    "name": "Umm Suqeim 2",
+    "description": "A premium area with spacious villas and quick access to major attractions."
+  },
+  {
+    "name": "Umm Suqeim 2 Villas",
+    "description": "Exclusive villas within Umm Suqeim 2 offering luxury coastal living."
+  },
+  {
+    "name": "Umm Suqeim 3",
+    "description": "A beachfront locality known for luxury homes and tourist attractions."
+  },
+  {
+    "name": "Umm Suqeim 3 Villas",
+    "description": "High-end villas located within the Umm Suqeim 3 district."
+  },
+  {
+    "name": "Umm Suqeim Road",
+    "description": "A major road connecting key beachfront communities and residential zones."
+  },
+
+  {
+    "name": "Uptown Dubai",
+    "description": "An upcoming luxury district featuring high-rise towers and lifestyle destinations."
+  },
+  {
+    "name": "Vida Residences Creek Beach",
+    "description": "A hotel-branded residential building offering premium waterfront living."
+  },
+  {
+    "name": "Villanova",
+    "description": "A suburban community offering townhouses and family-friendly green spaces."
+  },
+  {
+    "name": "Viridian",
+    "description": "A modern residential concept emphasizing greenery, open spaces, and contemporary living."
+  },
+  {
+    "name": "Wadi Al Safa 5",
+    "description": "A developing residential area offering villa communities and open landscapes."
+  },
+  {
+    "name": "Warsan 3",
+    "description": "A residential sub-community known for affordable housing and convenient city access."
+  },
+  {
+    "name": "Warsan Village",
+    "description": "A townhouse community offering modern living near International City."
+  },
+  {
+    "name": "Wasl Gate",
+    "description": "A mixed-use master development featuring residential, retail, and entertainment offerings."
+  },
+  {
+    "name": "Wilton Park Residences",
+    "description": "A boutique residential project offering refined interiors and park-facing units."
+  },
+  {
+    "name": "World Islands",
+    "description": "A man-made archipelago designed to resemble a world map with exclusive resorts."
+  },
+  {
+    "name": "World Trade Centre",
+    "description": "A major commercial hub featuring offices, malls, and event venues."
+  },
+  {
+    "name": "World Trade Centre Area",
+    "description": "The surrounding district of the World Trade Centre offering mixed-use developments."
+  },
+  {
+    "name": "World Trade Centre Residence",
+    "description": "A luxury residential tower offering premium serviced apartments."
+  },
+  {
+    "name": "Yaraah",
+    "description": "A residential community offering modern homes with easy urban connectivity."
+  },
+  {
+    "name": "Yas Island",
+    "description": "A leisure destination featuring theme parks, beaches, hotels, and waterfront homes."
+  },
+  {
+    "name": "Yuvi Residence",
+    "description": "A modern residential building designed for convenient and contemporary living."
+  },
+  {
+    "name": "Zabeel",
+    "description": "A central district home to royal residences, parks, and luxury communities."
+  },
+  {
+    "name": "Zabeel Extension",
+    "description": "An extension of the Zabeel area offering modern developments and improved accessibility."
+  }
+]
