@@ -18,8 +18,8 @@ import { getFirstLetter } from "@/constant/data";
 import Container from "@/components/Container";
 import ListingTrend from "@/components/ListingTrend";
 import Link from "next/link";
-import type { PublishedListing } from "@/app/(auth)/website/templates/components/shared/template-section-props";
 import type { WebsiteGeneral } from "@/hooks/useWebsiteSettings";
+import { PublishedListing } from "@/components/website/shared/template-section-props";
 
 interface ListingDetailPageWrapProps {
   listing: PublishedListing;
@@ -117,7 +117,7 @@ export const ListingDetailPageWrap: React.FC<ListingDetailPageWrapProps> = ({
               <Camera size={14} />
               {images.length} Photos
             </div>
-            
+
             <div className="absolute top-4 left-4 z-10 flex flex-wrap gap-2">
               <span className={cn(
                 "px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider text-white shadow-md",

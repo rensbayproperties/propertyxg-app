@@ -24,9 +24,7 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { getFirstLetter } from "@/constant/data";
-import ExtraFilter from "@/app/(auth)/property-listings/search/ExtraFilter";
 import LocationProjectSearchDropdown from "@/components/LocationProjectSearchDropdown";
-import PriceFilter from "@/app/(auth)/property-listings/search/PriceFilter";
 import { DataTableFilterBox } from "@/components/ui/table/data-table-filter-box";
 import usePublicAlert from "@/hooks/usePublicAlert";
 import { DataTableResetFilter } from "@/components/ui/table/data-table-reset-filter";
@@ -35,8 +33,10 @@ import { DataTableFilter } from "@/components/ui/table/data-table-filter";
 import { useQuery } from "@tanstack/react-query";
 import { searchParams } from "@/lib/searchParams";
 import { useQueryState } from "nuqs";
-import type { PublishedListing } from "@/app/(auth)/website/templates/components/shared/template-section-props";
 import type { WebsiteGeneral } from "@/hooks/useWebsiteSettings";
+import { PublishedListing } from "@/components/website/shared/template-section-props";
+import ExtraFilter from "@/components/search/ExtraFilter";
+import PriceFilter from "@/components/search/PriceFilter";
 
 interface SearchPageWrapProps {
   listings: PublishedListing[];

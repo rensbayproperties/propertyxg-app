@@ -1,7 +1,7 @@
 import "server-only";
 import { headers } from "next/headers";
 import { getWebsiteApiBaseUrl, type PublicWebsiteData } from "@/lib/websiteApi";
-import type { PublishedListing } from "@/app/(auth)/website/templates/components/shared/template-section-props";
+import { PublishedListing } from "@/components/website/shared/template-section-props";
 
 export type { PublishedListing };
 
