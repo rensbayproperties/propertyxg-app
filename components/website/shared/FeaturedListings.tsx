@@ -90,7 +90,7 @@ export const FeaturedListings: React.FC<FeaturedListingsProps> = ({
             Featured Listings
           </h2>
           <Link
-            href="/site/search"
+            href="/search"
             className="text-sm font-medium text-neutral-700 transition hover:text-neutral-900 no-underline"
           >
             See all
@@ -100,7 +100,7 @@ export const FeaturedListings: React.FC<FeaturedListingsProps> = ({
         <div className="grid grid-cols-1 gap-x-5 gap-y-7 sm:grid-cols-2 lg:grid-cols-4">
           {items.slice(0, 8).map((item) => (
             <article key={item.id} className="relative group">
-              <Link href={`/site/search/${item.id}`} className="block no-underline text-inherit">
+              <Link href={`/search/${item.id}`} className="block no-underline text-inherit">
                 <div className="relative overflow-hidden rounded-2xl">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img

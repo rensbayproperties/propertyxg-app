@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import type { WebsiteSectionId } from "@/hooks/useWebsiteSettings";
 import type { TemplateSectionProps } from "../shared/template-section-props";
+import { HeroSearchFilters } from "../shared/HeroSearchFilters";
 import { FeaturedListings } from "../shared/FeaturedListings";
 
 const LUXE_HERO_CTA_BLUE = "#2196F3";
@@ -86,18 +87,14 @@ const REVIEWS = [
 
 const Hero = (_props: TemplateSectionProps) => (
   <section className="bg-white px-6 py-24 font-serif text-black md:py-32">
-    <div className="mx-auto flex w-full max-w-[920px] flex-col items-center justify-center text-center">
+    <div className="mx-auto flex w-full max-w-[920px] flex-col items-center justify-center text-center gap-6">
       <h1 className="text-balance text-[clamp(1.875rem,4.5vw,3rem)] font-normal leading-[1.2] tracking-tight md:text-[clamp(2.25rem,4vw,3.25rem)]">
         <span className="block">Everything you need to grow in</span>
         <span className="block">business</span>
       </h1>
-      <button
-        type="button"
-        className="mt-9 rounded px-8 py-3 font-sans text-base font-semibold text-white transition hover:brightness-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2196F3]"
-        style={{ backgroundColor: LUXE_HERO_CTA_BLUE }}
-      >
-        Get Started
-      </button>
+      <div className="w-full">
+        <HeroSearchFilters general={_props.general} />
+      </div>
     </div>
   </section>
 );

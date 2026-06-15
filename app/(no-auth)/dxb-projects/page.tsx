@@ -1,63 +1,61 @@
+import {
+  fetchPublicWebsite,
+  fetchPublicDxbProjects,
+  fetchPublicDxbProjectsFilters,
+} from "@/lib/publicWebsite.server";
 import { SitePageShell } from "../_components/SitePageShell";
+import DxbProjectsPageWrap from "./DxbProjectsPageWrap";
+import type { Metadata } from "next";
 
-const PROJECTS = [
-  {
-    name: "Marina Heights",
-    location: "Dubai Marina",
-    handover: "Q4 2026",
-    starting: "1.85M",
-  },
-  {
-    name: "Palm Residences",
-    location: "Palm Jumeirah",
-    handover: "Q2 2027",
-    starting: "4.20M",
-  },
-  {
-    name: "Downtown Vista",
-    location: "Downtown Dubai",
-    handover: "Q3 2026",
-    starting: "2.40M",
-  },
-  {
-    name: "Creek Harbour Towers",
-    location: "Dubai Creek Harbour",
-    handover: "Q1 2027",
-    starting: "1.50M",
-  },
-];
+export const dynamic = "force-dynamic";
 
-export default function PublicDxbProjectsPage() {
+export const metadata: Metadata = {
+  title: "Dubai DXB Projects",
+  description: "Explore premium off-plan and completed real estate projects in Dubai.",
+};
+
+export default async function PublicDxbProjectsPage({
+  searchParams,
+}: {
+  searchParams: {
+    page?: string;
+    limit?: string;
+    project_status?: string;
+    locationId?: string;
+    projectId?: string;
+  };
+}) {
+  const result = await fetchPublicWebsite();
+  if (!result.ok) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-6 text-center bg-white">
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">Site Not Found</h1>
+          <p className="mt-2 text-gray-600">We could not load the site settings.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const data = result.data;
+
+  // Fetch projects and areas/developers list
+  const projectsResult = await fetchPublicDxbProjects(searchParams);
+  const filtersResult = await fetchPublicDxbProjectsFilters();
+
   return (
     <SitePageShell pageKey="dxb-projects">
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <h1 className="text-3xl font-bold">DXB Projects</h1>
-          <p className="mt-2 text-muted-foreground">
-            A selection of Dubai projects we work with.
-          </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            {PROJECTS.map((p) => (
-              <div
-                key={p.name}
-                className="overflow-hidden rounded-lg border bg-card"
-              >
-                <div className="aspect-[16/9] bg-gradient-to-br from-slate-200 to-slate-400" />
-                <div className="p-4">
-                  <h2 className="font-semibold">{p.name}</h2>
-                  <p className="text-sm text-muted-foreground">{p.location}</p>
-                  <div className="mt-3 flex items-center justify-between text-sm">
-                    <span className="text-muted-foreground">
-                      Handover {p.handover}
-                    </span>
-                    <span className="font-semibold">From AED {p.starting}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <DxbProjectsPageWrap
+        projects={projectsResult.data}
+        meta={{
+          total: projectsResult.total,
+          page: projectsResult.page,
+          limit: projectsResult.limit,
+          totalPages: projectsResult.totalPages,
+        }}
+        general={data.general}
+        areas={filtersResult.areas || []}
+      />
     </SitePageShell>
   );
 }

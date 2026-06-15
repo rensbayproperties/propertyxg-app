@@ -46,19 +46,19 @@ const nextConfig = {
     return [
       {
         source: "/buy",
-        destination: "/listings?ad_type=buy",
+        destination: "/search?ad_type=buy",
       },
       {
         source: "/rent",
-        destination: "/listings?ad_type=rent",
+        destination: "/search?ad_type=rent",
       },
       {
         source: "/off-plan",
-        destination: "/listings?ad_type=off_plan",
+        destination: "/search?ad_type=off_plan",
       },
       {
         source: "/commercial-projects",
-        destination: "/listings?top_category=commercial",
+        destination: "/search?top_category=commercial",
       },
     ];
   },

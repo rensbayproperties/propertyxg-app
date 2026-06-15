@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import type { WebsiteSectionId } from "@/hooks/useWebsiteSettings";
 import type { TemplateSectionProps } from "../shared/template-section-props";
-import { ClassicHeroCta } from "./ClassicHeroCta";
+import { HeroSearchFilters } from "../shared/HeroSearchFilters";
 import { FeaturedListings } from "../shared/FeaturedListings";
 
 const CLASSIC_HERO_BG = "/templates/classic-template/classic-template-hero.webp";
@@ -112,7 +112,7 @@ const Hero = (_props: TemplateSectionProps) => {
           {headline}
         </h1>
         <div className="w-full overflow-visible pb-6">
-          <ClassicHeroCta />
+          <HeroSearchFilters general={_props.general} />
         </div>
       </div>
     </section>

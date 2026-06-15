@@ -7,9 +7,10 @@ import type { WebsiteGeneral } from "@/hooks/useWebsiteSettings";
 import { ModernNavLogo } from "../modern/ModernNavLogo";
 
 const NAV_LINKS = [
+  { label: "Buy", href: "/search?dealType=SALE" },
+  { label: "Rent", href: "/search?dealType=RENT" },
+  { label: "DXB Projects", href: "/dxb-projects" },
   { label: "Find My Agent", href: "#" },
-  { label: "Dubai Area Guide", href: "#" },
-  { label: "Mortgage Services", href: "#" },
   { label: "Blogs", href: "#" },
 ] as const;
 

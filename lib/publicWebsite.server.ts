@@ -129,8 +129,8 @@ export const fetchPublicWebsite = async (): Promise<PublicWebsiteResult> => {
 
   const tenantHost = resolveTenantHost(rawHost);
 
-  // console.log("tenantHost", tenantHost);
-  // console.log("rawHost", rawHost);
+  console.log("tenantHost", tenantHost);
+  console.log("rawHost", rawHost);
 
   if (!tenantHost) {
     return {
@@ -332,3 +332,92 @@ export const fetchPublicListingDetail = async (
     return null;
   }
 };
+
+/**
+ * Fetch DXB projects publicly with query parameters.
+ * `GET /dxb-projects`
+ */
+export const fetchPublicDxbProjects = async (queries?: {
+  page?: string | number;
+  limit?: string | number;
+  project_status?: string;
+  locationId?: string;
+  projectId?: string;
+}): Promise<{
+  data: any[];
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
+}> => {
+  const base = getWebsiteApiBaseUrl();
+  const emptyResult = { data: [], total: 0, page: 1, limit: 12, totalPages: 0 };
+  if (!base) return emptyResult;
+
+  const rawHost = resolveRequestHost();
+  const tenantHost = rawHost ? resolveTenantHost(rawHost) : null;
+
+  const urlObj = new URL(`${base.replace(/\/+$/, "")}/dxb-projects`);
+  urlObj.searchParams.set("page", String(queries?.page || 1));
+  urlObj.searchParams.set("limit", String(queries?.limit || 12));
+
+  if (tenantHost) {
+    urlObj.searchParams.set("host", tenantHost);
+  }
+  if (queries?.project_status) {
+    urlObj.searchParams.set("project_status", queries.project_status);
+  }
+  if (queries?.locationId) {
+    urlObj.searchParams.set("locationId", queries.locationId);
+  }
+  if (queries?.projectId) {
+    urlObj.searchParams.set("projectId", queries.projectId);
+  }
+
+  try {
+    const res = await fetch(urlObj.toString(), { cache: "no-store" });
+    const json = await res.json();
+    if (!json?.success || !json.data) {
+      return emptyResult;
+    }
+    const projects = json.data.data || [];
+    const total = json.data.total || 0;
+    const limit = Number(queries?.limit || 12);
+    const totalPages = Math.ceil(total / limit);
+
+    return {
+      data: projects,
+      total,
+      page: Number(queries?.page || 1),
+      limit,
+      totalPages,
+    };
+  } catch (err) {
+    console.error("[publicWebsite] fetchPublicDxbProjects error:", err);
+    return emptyResult;
+  }
+};
+
+/**
+ * Fetch DXB projects filter options (areas and developers) publicly.
+ * `GET /dxb-projects/filters`
+ */
+export const fetchPublicDxbProjectsFilters = async (): Promise<{
+  areas: { label: string; value: string }[];
+  developers: { label: string; value: string }[];
+}> => {
+  const base = getWebsiteApiBaseUrl();
+  const emptyResult = { areas: [], developers: [] };
+  if (!base) return emptyResult;
+
+  const url = `${base.replace(/\/+$/, "")}/dxb-projects/filters`;
+  try {
+    const res = await fetch(url, { cache: "no-store" });
+    const json = await res.json();
+    return json?.data || emptyResult;
+  } catch (err) {
+    console.error("[publicWebsite] fetchPublicDxbProjectsFilters error:", err);
+    return emptyResult;
+  }
+};
+
