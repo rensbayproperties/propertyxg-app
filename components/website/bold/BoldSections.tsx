@@ -16,6 +16,7 @@ import {
   type WebsiteSectionId,
 } from "@/hooks/useWebsiteSettings";
 import type { TemplateSectionProps } from "../shared/template-section-props";
+import { HeroSearchFilters } from "../shared/HeroSearchFilters";
 import { FeaturedListings } from "../shared/FeaturedListings";
 
 const BOLD_HERO_IMAGE = "/templates/bold-template/bold-hero.webp";
@@ -94,13 +95,9 @@ const Hero = ({ general }: TemplateSectionProps) => {
             {BOLD_HERO_HEADLINE}
           </h1>
 
-          <button
-            type="button"
-            className="mt-16 inline-flex w-fit rounded-lg px-8 py-3.5 text-base font-bold text-white shadow-sm transition hover:opacity-95 sm:mt-20 md:mt-[5.5rem]"
-            style={{ backgroundColor: BOLD_RED }}
-          >
-            Get Started
-          </button>
+          <div className="mt-8 w-full">
+            <HeroSearchFilters general={general} />
+          </div>
 
           <div
             className="mt-16 rounded-2xl px-6 py-7 sm:mt-20 sm:px-8 sm:py-8 md:mt-24 md:rounded-3xl lg:mt-28"

@@ -14,6 +14,7 @@ import {
 import type { WebsiteSectionId } from "@/hooks/useWebsiteSettings";
 import type { TemplateSectionProps } from "../shared/template-section-props";
 import { minimalHeroDisplay } from "./minimal-hero-font";
+import { HeroSearchFilters } from "../shared/HeroSearchFilters";
 import { FeaturedListings } from "../shared/FeaturedListings";
 
 const MINIMAL_HERO_ACCENT = "#EAB308";
@@ -26,7 +27,7 @@ const MINIMAL_ABOUT_IMAGE = "/templates/minimal-template/burj-khalifa-image.webp
 
 const Hero = (_props: TemplateSectionProps) => (
   <section className="bg-black font-sans text-white">
-    <div className="mx-auto flex min-h-[min(85vh,820px)] w-full max-w-[1920px] flex-col justify-center px-6 py-24 pr-[max(1.5rem,6vw)] sm:px-10 sm:pr-[max(2rem,8vw)] md:px-14 md:pr-[max(3rem,10vw)] lg:px-20 lg:py-32">
+    <div className="mx-auto flex min-h-[min(85vh,820px)] w-full max-w-[1920px] flex-col justify-center px-6 py-24 pr-[max(1.5rem,6vw)] sm:px-10 sm:pr-[max(2rem,8vw)] md:px-14 md:pr-[max(3rem,10vw)] lg:px-20 lg:py-32 gap-10">
       <div className="max-w-[34rem] text-left">
         <h1
           className={`${minimalHeroDisplay.className} text-[clamp(2rem,5vw,3.75rem)] font-normal leading-[1.12] tracking-tight text-balance`}
@@ -35,13 +36,9 @@ const Hero = (_props: TemplateSectionProps) => (
           <span className="block">Everything you need to grow</span>
           <span className="block">in business</span>
         </h1>
-        <button
-          type="button"
-          className="mt-10 inline-flex items-center justify-center rounded-md border border-white px-8 py-3 text-base font-bold text-white transition hover:brightness-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-          style={{ backgroundColor: MINIMAL_HERO_ACCENT }}
-        >
-          Get Started
-        </button>
+      </div>
+      <div className="w-full">
+        <HeroSearchFilters general={_props.general} />
       </div>
     </div>
   </section>
